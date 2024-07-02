@@ -1,0 +1,356 @@
+/* START comman css */ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+/* START Section5 css */
+.products p {
+    float: left;
+    width: 100%;
+}
+.products figure {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+    padding: 0 15rem;
+}
+.section5 {
+    background-color: #D6D6D6;
+    padding: 3rem 0;
+}
+.section5.div{
+    text-align: center;
+    
+}
+.section5 img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+.section5 .title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+/* END Section5 css */
+
+/* START Section6 css */
+.section6{
+    background-color: #C4C4C4;
+}
+.section6 p {
+    text-align: center;
+}
+.main-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
+    padding: 5rem 3rem;
+}
+.section5.div{
+    text-align: center;
+}
+.section6 .title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 18px;
+    padding-top: 2rem;
+}
+
+.section6 .part1, .part2, .part3 {
+    background-color: #fff;
+    text-align: center;
+    padding: 7rem 2rem;
+}
+.prizes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.prizes button {
+    padding: 10px 20px;
+    background-color: #2D519A;
+    color: white;
+    border-color: #2D519A;
+}
+.prizes .desc {
+    margin-bottom: 2rem;
+}
+/* END Section6 css */
+
+
+  a{
+    color: inherit;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+}
+ul {
+    list-style: none;
+}
+/* END comman css */ 
+/* START Header css */ 
+.logo img {
+    max-width: 100%;
+    background-color: #fff;
+    padding: 10px;
+}
+figure.logo {
+    float: left;
+    line-height: 0;
+}
+header nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+}
+header {
+    background-color: #2D519A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+header a {
+    background-color: #F7CB00;
+    padding: 12px;
+}
+header a:hover {
+    background-color: #fff;
+}
+/* END Header css */ 
+/* START Section1 css */
+section.section1 {
+    background-color: #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
+    padding: 3rem 13rem;
+}
+.section1 .part1, .section1 .part2 {
+    background-color: #EDEDED;
+    padding: 2rem;
+}
+.section1 .title p {
+    background-color: #F7CB00;
+    display: inline-block;
+    padding: 1rem;
+}
+.section1 .title {
+    margin-bottom: 5rem;
+}
+.section1 .heading p {
+    font-size: 26px;
+}
+.section1 .heading {
+    margin-bottom: 5px;
+}
+.section1 .part1 .desc {
+    margin-bottom: 5rem;
+}
+.section1 .part2 .desc {
+    margin-bottom: 1rem;
+}
+.section1 .part2 {
+    border-radius: 12%;
+}
+.section1 button {
+    padding: 10px 20px;
+    background-color: #2D519A;
+    color: white;
+    border-color: #2D519A;
+}
+.section1 button:hover {
+    background-color: #F7CB00;
+    color: black;
+    border-color: #F7CB00;
+}
+.section1 .part2 {
+   text-align: center;
+}
+/* END Section1 css */
+/* START Section2 css */
+.brandlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.section2 {
+    background-color: #D6D6D6;
+    padding: 3rem 0;
+}
+.section2 img {
+    max-width: 100%;
+}
+.section2 .title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+/* END Section2 css */
+/* START FOOTER css */
+footer {
+    float: left;
+    width: 100%;
+    background-color: #EDEDED;
+    text-align: center;
+    padding: 6rem 0;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+i.material-icons {
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #C4C4C4;
+    margin: 0 10px;
+}
+footer nav {
+    margin: 2rem 0;
+}
+footer .title {
+    font-size: 22px;
+}
+/* END FOOTER css */
+.products-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  font-size: 1em;
+  font-weight: 700;
+  color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+}
+
+.product-card p {
+  font-size: 16px;
+  color: blue !important;
+  margin: 5px 0;
+}
+
+.product-card button {
+  background-color: #3032d8;
+  color: #f4f4f7;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 1em;
+}
+
+.trending-products .product-card button,
+.best-products .product-card button {
+  background-color: #3032d8;
+  color: #f4f4f7;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 1em;
+}
+
+.product-card button:hover {
+  color: #c8e42d;
+  background-color: #555;
+}
+
+.trending-products h2,
+.best-products h2{
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #333;
+  background: linear-gradient(to right, #0e0d0d, #2724e9);
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.section3 .title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 26px;
+}
+.product-card h3 {
+  font-size: 1em;
+  font-weight: 700;
+  color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+}
+
+.section3 {
+  background-color: #ababab;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.video-content {
+  display: flex;
+  justify-content: center;
+}
+section.best-products {
+    margin-bottom: 3rem;
+}
+.trending-products h2,
+.best-products h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #333;
+  background: linear-gradient(to right, #0e0d0d, #2724e9);
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
